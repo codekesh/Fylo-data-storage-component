@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('../images/bg-desktop.png'), hsl(229, 57%, 11%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+
+.box1 {
+    width: 35%;
+    height: 200px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    background: hsl(228, 56%, 26%);
+}
+
+.box2 {
+    width: 65%;
+    height: 80px;
+    border-radius: 10px;
+    background: hsl(228, 56%, 26%);
+    position: relative;
+    top: 50px;
+    padding: 35px;
+}
+
+.image {
+    flex-direction: row;
+    background: hsl(229, 57%, 11%);
+    padding: 11px;
+    margin-right: 20px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.image2 img {
+    position: relative;
+    top: 2px;
+}
+
+.image3 img {
+    position: relative;
+    top: 5px;
+}
+
+.icon {
+    margin-left: 40px;
+    display: flex;
+}
+
+.logo {
+    margin: 40px;
+}
+
+.statement {
+    color: hsl(229, 7%, 55%);
+}
+
+.used {
+    color: hsl(243, 100%, 93%);
+}
+
+.unused {
+    position: absolute;
+    bottom: 7rem;
+    right: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+}
+
+.data {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(229, 57%, 11%);
+    margin-right: 0.5rem;
+}
+
+.left {
+    font-size: 14px;
+    color: hsl(229, 7%, 55%);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tail {
+    position: absolute;
+    right: 0;
+    top: 3rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.progress {
+    height: 1rem;
+    width: 98%;
+    margin: 15px 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    padding: 2px 3px;
+}
+
+.meter {
+    height: 100%;
+    width: 75%;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+    padding: 0px 4px;
+}
+
+.point {
+    height: 9px;
+    width: 9px;
+    border-radius: 10px;
+    margin-left: auto;
+    position: relative;
+    top: 3px;
+    background-color: white;
+}
+
+.limits {
+    display: flex;
+    color: hsl(243, 100%, 93%);
+}
+
+.upper {
+    margin-left: auto;
+}
+
+.font {
+    font-family: 'Raleway', sans-serif;
+}

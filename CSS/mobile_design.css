@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../images/bg-desktop.png'), hsl(229, 57%, 11%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+.box1 {
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    background: hsl(228, 56%, 26%);
+    margin-bottom: 15px;
+}
+
+.box2 {
+    width: 71%;
+    height: 100px;
+    border-radius: 10px;
+    background: hsl(228, 56%, 26%);
+    padding: 20px;
+}
+
+.image {
+    flex-direction: row;
+    background: hsl(229, 57%, 11%);
+    padding: 11px;
+    margin-right: 20px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.image2 img {
+    position: relative;
+    top: 2px;
+}
+
+.image3 img {
+    position: relative;
+    top: 5px;
+}
+
+.icon {
+    margin-left: 40px;
+    display: flex;
+}
+
+.logo {
+    margin: 40px;
+}
+
+.statement {
+    text-align: center;
+    color: hsl(229, 7%, 55%);
+}
+
+.used {
+    color: hsl(243, 100%, 93%);
+}
+
+.unused {
+    position: absolute;
+    top: 20rem;
+    right: 13rem;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+}
+
+.data {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(229, 57%, 11%);
+    margin-right: 0.5rem;
+}
+
+.left {
+    font-size: 14px;
+    color: hsl(229, 7%, 55%);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.progress {
+    height: 1rem;
+    width: 98%;
+    margin: 15px 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    padding: 2px 3px;
+}
+
+.meter {
+    height: 100%;
+    width: 75%;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+    padding: 0px 4px;
+}
+
+.point {
+    height: 9px;
+    width: 9px;
+    border-radius: 10px;
+    margin-left: auto;
+    position: relative;
+    top: 3px;
+    background-color: white;
+}
+
+.limits {
+    display: flex;
+    color: hsl(243, 100%, 93%);
+}
+
+.upper {
+    margin-left: auto;
+}
+
+.font {
+    font-family: 'Raleway', sans-serif;
+}
